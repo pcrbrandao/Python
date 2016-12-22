@@ -1,20 +1,16 @@
 import unittest
+from domain.usuario import Usuario
+from controllers import usuario_controller
 
-class TestStringMethods(unittest.TestCase):
 
-    def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+class TestUserController(unittest.TestCase):
 
-    def test_isupper(self):
-        self.assertTrue('FOO'.isupper())
-        self.assertFalse('Foo'.isupper())
+    def test_add(self):
 
-    def test_split(self):
-        s = 'hello world'
-        self.assertEqual(s.split(), ['hello', 'world'])
-        # check that s.split fails when the separator is not a string
-        with self.assertRaises(TypeError):
-            s.split(2)
+        us = Usuario(nome='Pedro', email='email', senha='1234')
+        result = usuario_controller.add(us)
+
+        self.assertIsNone(result)
 
 if __name__ == '__main__':
     unittest.main()
