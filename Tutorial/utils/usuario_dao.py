@@ -1,5 +1,5 @@
-from controllers.database import db_session
 from domain.usuario import Usuario
+from utils.database import db_session
 
 
 def add(us: Usuario) -> Exception:
