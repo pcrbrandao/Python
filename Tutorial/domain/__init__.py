@@ -1,5 +1,4 @@
-from controllers import metadata, engine
-from domain.usuario import Usuario
+from sqlalchemy.ext.declarative import declarative_base
 
-metadata.create_all(engine,tables=[Usuario])
+Base = declarative_base()
 
