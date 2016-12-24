@@ -23,10 +23,15 @@ class Paginas(Singleton):
 
         return pagina * registros_por_pagina
 
-    def ultimo_registro_da_pagina(self, pagina:int, registros_por_pagina:int) -> int:
+    def ultimo_registro_da_pagina(self, pagina:int,
+                                  registros_por_pagina:int,
+                                  total_de_registros:int) -> int:
         """se a página é 2 e o registros_por_pagina é 10, então retorna 19"""
         if pagina < 0 or registros_por_pagina <= 0:
             return 0
+
+        if pagina == (self.total_de_paginas(total_de_registros, registros_por_pagina) - 1):
+            return total_de_registros - 1
 
         return self.primeiro_registro_da_pagina(pagina,registros_por_pagina) + registros_por_pagina - 1
 

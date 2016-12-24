@@ -52,6 +52,29 @@ class TestUtils(unittest.TestCase):
 
         self.assertEqual(primeiro, 20)
 
+    def test_ultimo_registro_deve_ser_9(self):
+        pagina = 0
+        total_de_registros = 10
+        registros_por_pag = 10
+        ultimo = self.pag.ultimo_registro_da_pagina(pagina,registros_por_pag,total_de_registros)
+
+        self.assertEqual(ultimo, 9)
+
+    def test_ultimo_registro_deve_ser_12(self):
+        pagina = 1
+        total_de_registros = 13
+        registros_por_pag = 10
+        ultimo = self.pag.ultimo_registro_da_pagina(pagina,registros_por_pag,total_de_registros)
+
+        self.assertEqual(ultimo, 12)
+
+    def test_ultimo_registro_deve_ser_5(self):
+        pagina = 0
+        total_de_registros = 6
+        registros_por_pag = 10
+        ultimo = self.pag.ultimo_registro_da_pagina(pagina,registros_por_pag,total_de_registros)
+
+        self.assertEqual(ultimo, 5)
 
 if __name__ == '__main__':
     unittest.main()

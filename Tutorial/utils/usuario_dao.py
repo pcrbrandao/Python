@@ -2,6 +2,7 @@ from domain.usuario import Usuario
 from utils.database import db_session
 from sqlalchemy.orm.query import Query
 from utils.singleton import Singleton
+from utils.paginas import Paginas
 
 
 class UsuarioDAO(Singleton):
@@ -10,6 +11,7 @@ class UsuarioDAO(Singleton):
         Singleton.__init__(self)
         self.usuarios_por_pagina = usuarios_por_pagina
         self.total_de_usuarios = 0
+        self.paginas = Paginas()
 
     def add(self, usuario: Usuario) -> Exception:
         """Tenta adicionar um usuário. Se ok, retorna None, se não retorna o erro."""
@@ -43,7 +45,7 @@ class UsuarioDAO(Singleton):
             print("Erro: {}. {} não pode ser deletado".format(err, usuario))
             return err
 
-    def list(self, pag_inic:int, pag_fim:int) -> Query:
+    def list(self, pag_inic=0, pag_fim=0) -> Query:
         """Tenta retornar a lista dos usuários já com o limite por página"""
 
         if pag_fim < pag_inic or pag_inic < 0:
@@ -51,8 +53,8 @@ class UsuarioDAO(Singleton):
             return None
 
         try:
-            query = db_session.query(Usuario).order_by(Usuario.id)
-            total_de_usuarios = len(query)
+            query = db_session.query(Usuario).order_by(Usuario.id).all()
+            self.total_de_usuarios = len(query)
 
             if self.total_de_usuarios == 0:
                 return None
@@ -60,8 +62,19 @@ class UsuarioDAO(Singleton):
             if pag_fim > len(query):
                 pag_fim = len(query) - 1
 
-            return query[pag_inic:pag_fim]
+            reg_ini = self.paginas.primeiro_registro_da_pagina(pag_inic, self.usuarios_por_pagina)
+            reg_fim = self.paginas.ultimo_registro_da_pagina(pag_fim, self.usuarios_por_pagina,self.total_de_usuarios)
+
+            return query[reg_ini:reg_fim]
 
         except Exception as err:
             print("não pude obter a query: {}".format(err))
             return None
+
+    def delete_all(self):
+        """Deleta todos os usuários no db!"""
+        query = db_session.query(Usuario).all()
+
+        for usuario in query:
+            db_session.delete(usuario)
+        db_session.commit()
