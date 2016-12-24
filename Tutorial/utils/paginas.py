@@ -1,5 +1,10 @@
-class Paginas:
+from utils.singleton import Singleton
+
+
+class Paginas(Singleton):
     """utilidades para distribuir registros por página"""
+    def __init__(self):
+        Singleton.__init__(self)
 
     def total_de_paginas(self, total_de_registros:int, registros_por_pagina:int) -> int:
         """total das páginas. 10 siginifica que a primeira página é 0 e a última 9."""
@@ -24,3 +29,4 @@ class Paginas:
             return 0
 
         return self.primeiro_registro_da_pagina(pagina,registros_por_pagina) + registros_por_pagina - 1
+

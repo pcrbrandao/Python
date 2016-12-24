@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca4a69d-8c06-4fa5-b9bd-89e1efb2d003" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/singleton.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/paginas.py" afterPath="$PROJECT_DIR$/utils/paginas.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/usuario_dao.py" afterPath="$PROJECT_DIR$/utils/usuario_dao.py" />
     </list>
     <ignored path="Tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +21,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Tutorial$Unittests_in_test_user_dao.coverage" NAME="Unittests in test_user_dao Coverage Results" MODIFIED="1482427395465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers" />
-    <SUITE FILE_PATH="coverage/Tutorial$Unittests_in_TestUtils.coverage" NAME="Unittests in TestUtils Coverage Results" MODIFIED="1482528912006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Tutorial$Unittests_in_TestUtils.coverage" NAME="Unittests in TestUtils Coverage Results" MODIFIED="1482530033416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittests_in_test_user_controller.coverage" NAME="Unittests in test_user_controller Coverage Results" MODIFIED="1482408530434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_delete_deve_retornar_none.coverage" NAME="Unittest TestUserController.test_delete_deve_retornar_none Coverage Results" MODIFIED="1482501127236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_total_de_paginas_deve_ser_um.coverage" NAME="Unittest TestUserController.test_total_de_paginas_deve_ser_um Coverage Results" MODIFIED="1482515737233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
@@ -27,7 +30,7 @@
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_total_de_paginas.coverage" NAME="Unittest TestUserController.test_total_de_paginas Coverage Results" MODIFIED="1482513548308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_add_deve_retornar_none.coverage" NAME="Unittest TestUserController.test_add_deve_retornar_none Coverage Results" MODIFIED="1482500949719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_find.coverage" NAME="Unittest TestUserController.test_find Coverage Results" MODIFIED="1482439154546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/Tutorial$Unittests_in_TestUserDAO.coverage" NAME="Unittests in TestUserDAO Coverage Results" MODIFIED="1482528286064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Tutorial$Unittests_in_TestUserDAO.coverage" NAME="Unittests in TestUserDAO Coverage Results" MODIFIED="1482530023235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_total_deve_ser_dois_para_onze.coverage" NAME="Unittest TestUserController.test_total_deve_ser_dois_para_onze Coverage Results" MODIFIED="1482515851393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_test_primeiro_registro_deve_ser_dez.coverage" NAME="Unittest TestUserDAO.test_primeiro_registro_deve_ser_dez Coverage Results" MODIFIED="1482516212765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_test_delete_deve_retornar_none.coverage" NAME="Unittest TestUserDAO.test_delete_deve_retornar_none Coverage Results" MODIFIED="1482528265389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
@@ -52,8 +55,8 @@
       <file leaf-file-name="usuario_dao.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/usuario_dao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+            <state relative-caret-position="45">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -61,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paginas.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="paginas.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/paginas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/utils/test_user_dao.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -83,35 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/database.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#137#173#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usuario.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/usuario.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_paginas.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_paginas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/test_paginas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="285">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -162,11 +141,12 @@
         <option value="$PROJECT_DIR$/domain/usuario.py" />
         <option value="$PROJECT_DIR$/utils/database.py" />
         <option value="$PROJECT_DIR$/utils/test_utils.py" />
-        <option value="$PROJECT_DIR$/utils/usuario_dao.py" />
         <option value="$PROJECT_DIR$/utils/__init__.py" />
-        <option value="$PROJECT_DIR$/utils/paginas.py" />
         <option value="$PROJECT_DIR$/utils/test_user_dao.py" />
         <option value="$PROJECT_DIR$/utils/test_paginas.py" />
+        <option value="$PROJECT_DIR$/utils/singleton.py" />
+        <option value="$PROJECT_DIR$/utils/usuario_dao.py" />
+        <option value="$PROJECT_DIR$/utils/paginas.py" />
       </list>
     </option>
   </component>
@@ -183,9 +163,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="890" />
+    <option name="x" value="800" />
     <option name="y" value="23" />
-    <option name="width" value="1024" />
+    <option name="width" value="1119" />
     <option name="height" value="962" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -213,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,8 +269,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1082,7 +1062,8 @@
       <workItem from="1482406474379" duration="1013000" />
       <workItem from="1482407936749" duration="10196000" />
       <workItem from="1482426483430" duration="981000" />
-      <workItem from="1482434650819" duration="21914000" />
+      <workItem from="1482434650819" duration="25502000" />
+      <workItem from="1482580155865" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="arquivo IntelliJ">
       <created>1482151929871</created>
@@ -1147,18 +1128,19 @@
       <option name="project" value="LOCAL" />
       <updated>1482528927724</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Em desenvolvimento. Melhoramentos.">
+      <created>1482528938780</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1482528938780</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Unittest_TestUserDAO_test_delete_deve_retornar_none - 2016.12.23 at 19h 24m 26s.xml">
       <configuration name="Unittest TestUserDAO.test_delete_deve_retornar_none" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestUserDAO_test_primeiro_registro_deve_ser_20 - 2016.12.23 at 18h 20m 48s.xml">
-      <configuration name="Unittest TestUserDAO.test_primeiro_registro_deve_ser_20" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestUserDAO - 2016.12.23 at 18h 19m 48s.xml">
-      <configuration name="Unittests in TestUserDAO" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_TestUserDAO - 2016.12.23 at 19h 22m 34s.xml">
       <configuration name="Unittests in TestUserDAO" configurationId="tests" />
@@ -1167,6 +1149,9 @@
       <configuration name="Unittests in TestUserDAO" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_TestUserDAO - 2016.12.23 at 19h 24m 46s.xml">
+      <configuration name="Unittests in TestUserDAO" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestUserDAO - 2016.12.23 at 19h 53m 44s.xml">
       <configuration name="Unittests in TestUserDAO" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_TestUtils - 2016.12.23 at 18h 28m 40s.xml">
@@ -1181,38 +1166,41 @@
     <history-entry file="Unittests_in_TestUtils - 2016.12.23 at 19h 35m 12s.xml">
       <configuration name="Unittests in TestUtils" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_TestUtils - 2016.12.23 at 19h 53m 54s.xml">
+      <configuration name="Unittests in TestUtils" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74627000" />
+    <option name="totallyTimeSpent" value="78279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="890" y="23" width="1024" height="962" extended-state="0" />
+    <frame x="800" y="23" width="1119" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29310346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20366599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18570103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29310346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1240,6 +1228,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/utils/paginas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_user_dao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_paginas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/usuario_dao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1254,9 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1264,9 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#137#173#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1284,9 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,9 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,9 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,9 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,9 +1369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1381,9 +1376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1418,9 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1428,9 +1417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1458,9 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1468,9 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1570,7 +1550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1578,29 +1557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#137#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/usuario.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1608,32 +1564,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/singleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/usuario_dao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/paginas.py">
+    <entry file="file://$PROJECT_DIR$/utils/database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/usuario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/test_user_dao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1642,11 +1601,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/test_paginas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="285">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/usuario_dao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/paginas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

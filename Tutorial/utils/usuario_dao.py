@@ -1,11 +1,13 @@
 from domain.usuario import Usuario
 from utils.database import db_session
 from sqlalchemy.orm.query import Query
+from utils.singleton import Singleton
 
 
-class UsuarioDAO:
+class UsuarioDAO(Singleton):
 
     def __init__(self, usuarios_por_pagina:int = 10, total_de_usuarios:int = 0):
+        Singleton.__init__(self)
         self.usuarios_por_pagina = usuarios_por_pagina
         self.total_de_usuarios = 0
 
