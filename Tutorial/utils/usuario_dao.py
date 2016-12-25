@@ -6,6 +6,7 @@ from utils.paginas import Paginas
 
 
 class UsuarioDAO(Singleton):
+    """Fornece funções para acesso ao banco de dados"""
 
     def __init__(self, usuarios_por_pagina:int = 10, total_de_usuarios:int = 0):
         Singleton.__init__(self)
