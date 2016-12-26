@@ -1,5 +1,5 @@
 from domain.usuario import Usuario
-from utils.database import db_session
+from utils.database import get_db_session
 from sqlalchemy.orm.query import Query
 from utils.singleton import Singleton
 from utils.paginas import Paginas
@@ -17,8 +17,10 @@ class UsuarioDAO(Singleton):
     def add(self, usuario: Usuario) -> Exception:
         """Tenta adicionar um usuário. Se ok, retorna None, se não retorna o erro."""
         try:
-            db_session.add(usuario)
-            db_session.commit()
+            db = get_db_session()
+            db.add(usuario)
+            db.commit()
+            db.close()
             return None
 
         except Exception as err:
@@ -28,8 +30,10 @@ class UsuarioDAO(Singleton):
     def find(self, nome: str) -> Usuario:
         """Tenta encontrar um usuário pelo nome. Se ok, retorna-o, se não retorna None"""
         try:
-            query = db_session.query(Usuario).filter(Usuario.nome == nome)
+            db = get_db_session()
+            query = db.query(Usuario).filter(Usuario.nome == nome)
             usuario_db = query.one_or_none()
+            db.close()
             return usuario_db
         except Exception as err:
             print("Erro: {} procurando: {}".format(err, str))
@@ -39,8 +43,10 @@ class UsuarioDAO(Singleton):
     def delete(self, usuario: Usuario) -> Exception:
         """Tenta deletar um usuário. Se ok, retorna None, ou erro caso contrário"""
         try:
-            db_session.delete(usuario)
-            db_session.commit()
+            db = get_db_session()
+            db.delete(usuario)
+            db.commit()
+            db.close()
             return None
         except Exception as err:
             print("Erro: {}. {} não pode ser deletado".format(err, usuario))
@@ -54,7 +60,8 @@ class UsuarioDAO(Singleton):
             return None
 
         try:
-            query = db_session.query(Usuario).order_by(Usuario.id).all()
+            db = get_db_session()
+            query = db.query(Usuario).order_by(Usuario.id).all()
             self.total_de_usuarios = len(query)
 
             if self.total_de_usuarios == 0:
@@ -74,8 +81,10 @@ class UsuarioDAO(Singleton):
 
     def delete_all(self):
         """Deleta todos os usuários no db!"""
-        query = db_session.query(Usuario).all()
+        db = get_db_session()
+        query = db.query(Usuario).all()
 
         for usuario in query:
-            db_session.delete(usuario)
-        db_session.commit()
+            db.delete(usuario)
+        db.commit()
+        db.close()

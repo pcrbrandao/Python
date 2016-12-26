@@ -9,7 +9,7 @@ from sqlalchemy.engine import Engine
 import domain
 
 
-def get_engine() -> Engine:
+def _get_engine() -> Engine:
     try:
         return create_engine('mysql+pymysql://root:root@localhost:8889/receitas')
 
@@ -17,16 +17,17 @@ def get_engine() -> Engine:
         print("Não pude conectar: {}".format(err))
         return err
 
-def get_db_session(engine: Engine) -> Session:
+def get_db_session() -> Session:
     return scoped_session(sessionmaker(autocommit=False,
                                        autoflush=False,
-                                       bind=engine))
+                                       bind=_get_engine()))
 
-engine = get_engine()
-db_session = get_db_session(engine)
+# Deve-se criar essas variáveis dentro dos métodos
+# engine = get_engine()
+# db_session = get_db_session(engine)
 
 def init_db():
-    """O IDE não oferece o metadata no autocomplete, mas está funcionando
-    conforme a documentação do SQLAlchemy"""
-    domain.Base.metadata.create_all(bind=engine)
+    """O IDE não oferece o metadata no autocomplete porque o tipo é dinamico,
+    mas está funcionando conforme a documentação do SQLAlchemy"""
+    domain.Base.metadata.create_all(bind=_get_engine())
 

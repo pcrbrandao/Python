@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bca4a69d-8c06-4fa5-b9bd-89e1efb2d003" name="Default" comment="">
+    <list default="true" id="bca4a69d-8c06-4fa5-b9bd-89e1efb2d003" name="Default" comment="engine e db_session estavam fican">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/database.py" afterPath="$PROJECT_DIR$/utils/database.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/usuario_dao.py" afterPath="$PROJECT_DIR$/utils/usuario_dao.py" />
     </list>
     <ignored path="Tutorial.iws" />
@@ -23,10 +24,10 @@
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestStrings_test_string_aleatoria.coverage" NAME="Unittest TestStrings.test_string_aleatoria Coverage Results" MODIFIED="1482585483955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittests_in_test_user_controller.coverage" NAME="Unittests in test_user_controller Coverage Results" MODIFIED="1482408530434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_test_primeiro_registro_deve_ser_20.coverage" NAME="Unittest TestUserDAO.test_primeiro_registro_deve_ser_20 Coverage Results" MODIFIED="1482524448030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_test_delete_all.coverage" NAME="Unittest TestUserDAO.test_delete_all Coverage Results" MODIFIED="1482589154408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_test_delete_all.coverage" NAME="Unittest TestUserDAO.test_delete_all Coverage Results" MODIFIED="1482784444265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_add_deve_retornar_none.coverage" NAME="Unittest TestUserController.test_add_deve_retornar_none Coverage Results" MODIFIED="1482500949719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/Tutorial$Unittests_in_TestUserDAO.coverage" NAME="Unittests in TestUserDAO Coverage Results" MODIFIED="1482530023235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestStrings_test_string_aleatoria_deve_ter_comp_10.coverage" NAME="Unittest TestStrings.test_string_aleatoria_deve_ter_comp_10 Coverage Results" MODIFIED="1482586516788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Tutorial$Unittests_in_TestUserDAO.coverage" NAME="Unittests in TestUserDAO Coverage Results" MODIFIED="1482785232057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_total_deve_ser_dois_para_onze.coverage" NAME="Unittest TestUserController.test_total_deve_ser_dois_para_onze Coverage Results" MODIFIED="1482515851393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_test_primeiro_registro_deve_ser_dez.coverage" NAME="Unittest TestUserDAO.test_primeiro_registro_deve_ser_dez Coverage Results" MODIFIED="1482516212765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_test_primeiro_registro_deve_ser_zero.coverage" NAME="Unittest TestUserDAO.test_primeiro_registro_deve_ser_zero Coverage Results" MODIFIED="1482516131952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
@@ -38,6 +39,7 @@
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_delete_deve_retornar_none.coverage" NAME="Unittest TestUserController.test_delete_deve_retornar_none Coverage Results" MODIFIED="1482501127236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_total_de_paginas_deve_ser_um.coverage" NAME="Unittest TestUserController.test_total_de_paginas_deve_ser_um Coverage Results" MODIFIED="1482515737233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_total_deve_ser_um_para_menor_que_dez.coverage" NAME="Unittest TestUserController.test_total_deve_ser_um_para_menor_que_dez Coverage Results" MODIFIED="1482515719726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_inserir_registros_para_teste.coverage" NAME="Unittest TestUserDAO.inserir_registros_para_teste Coverage Results" MODIFIED="1482784335169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_total_de_paginas.coverage" NAME="Unittest TestUserController.test_total_de_paginas Coverage Results" MODIFIED="1482513548308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_find.coverage" NAME="Unittest TestUserController.test_find Coverage Results" MODIFIED="1482439154546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUtils_test_ultimo_registro_deve_ser_9.coverage" NAME="Unittest TestUtils.test_ultimo_registro_deve_ser_9 Coverage Results" MODIFIED="1482581254870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
@@ -49,7 +51,7 @@
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserController_test_find_deve_encontrar.coverage" NAME="Unittest TestUserController.test_find_deve_encontrar Coverage Results" MODIFIED="1482500537592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestStrings_test_lista_de_strings_deve_ter_comp_10.coverage" NAME="Unittest TestStrings.test_lista_de_strings_deve_ter_comp_10 Coverage Results" MODIFIED="1482586668891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestStrings_test_string_aleatoria_deve_ter_comp_5.coverage" NAME="Unittest TestStrings.test_string_aleatoria_deve_ter_comp_5 Coverage Results" MODIFIED="1482586369218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_test_add_deve_retornar_none.coverage" NAME="Unittest TestUserDAO.test_add_deve_retornar_none Coverage Results" MODIFIED="1482588663684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Tutorial$Unittest_TestUserDAO_test_add_deve_retornar_none.coverage" NAME="Unittest TestUserDAO.test_add_deve_retornar_none Coverage Results" MODIFIED="1482784465391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$/../../../GoLangRepos/Golang" />
@@ -63,10 +65,32 @@
       <file leaf-file-name="usuario_dao.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/usuario_dao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="569">
+              <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/usuario.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#137#173#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +109,8 @@
       <file leaf-file-name="test_user_dao.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/test_user_dao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -134,8 +158,6 @@
         <option value="$PROJECT_DIR$/controllers/__init__.py" />
         <option value="$PROJECT_DIR$/domain/__init__.py" />
         <option value="$PROJECT_DIR$/domain/test_usuario.py" />
-        <option value="$PROJECT_DIR$/domain/usuario.py" />
-        <option value="$PROJECT_DIR$/utils/database.py" />
         <option value="$PROJECT_DIR$/utils/test_utils.py" />
         <option value="$PROJECT_DIR$/utils/__init__.py" />
         <option value="$PROJECT_DIR$/utils/singleton.py" />
@@ -146,7 +168,9 @@
         <option value="$PROJECT_DIR$/utils/random_strings.py" />
         <option value="$PROJECT_DIR$/utils/test_strings.py" />
         <option value="$PROJECT_DIR$/utils/test_user_dao.py" />
+        <option value="$PROJECT_DIR$/domain/usuario.py" />
         <option value="$PROJECT_DIR$/utils/usuario_dao.py" />
+        <option value="$PROJECT_DIR$/utils/database.py" />
       </list>
     </option>
   </component>
@@ -193,8 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,7 +280,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +294,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="GO_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tutorial-env/bin/python3.5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -278,53 +302,7 @@
       <recent name="$PROJECT_DIR$/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest TestUserDAO.test_delete_all">
-    <configuration default="false" name="Unittest TestStrings.test_string_aleatoria_deve_ter_comp_5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tutorial" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test_strings.py" />
-      <option name="CLASS_NAME" value="TestStrings" />
-      <option name="METHOD_NAME" value="test_string_aleatoria_deve_ter_comp_5" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestStrings.test_string_aleatoria_deve_ter_comp_10" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tutorial" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test_strings.py" />
-      <option name="CLASS_NAME" value="TestStrings" />
-      <option name="METHOD_NAME" value="test_string_aleatoria_deve_ter_comp_10" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in TestUserDAO">
     <configuration default="false" name="Unittest TestStrings.test_lista_de_strings_deve_ter_comp_10" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,6 +365,52 @@
       <option name="METHOD_NAME" value="test_add_deve_retornar_none" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestUserDAO.inserir_registros_para_teste" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tutorial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test_user_dao.py" />
+      <option name="CLASS_NAME" value="TestUserDAO" />
+      <option name="METHOD_NAME" value="inserir_registros_para_teste" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in TestUserDAO" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tutorial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test_user_dao.py" />
+      <option name="CLASS_NAME" value="TestUserDAO" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -1005,19 +1029,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestStrings.test_string_aleatoria_deve_ter_comp_5" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestStrings.test_string_aleatoria_deve_ter_comp_10" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestStrings.test_lista_de_strings_deve_ter_comp_10" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestUserDAO.test_delete_all" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestUserDAO.test_add_deve_retornar_none" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestStrings.test_lista_de_strings_deve_ter_comp_10" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestUserDAO.test_delete_all" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestUserDAO.test_add_deve_retornar_none" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestUserDAO.inserir_registros_para_teste" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestUserDAO" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestUserDAO.test_delete_all" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestUserDAO" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestUserDAO.test_add_deve_retornar_none" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestStrings.test_lista_de_strings_deve_ter_comp_10" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestStrings.test_string_aleatoria_deve_ter_comp_10" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestStrings.test_string_aleatoria_deve_ter_comp_5" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestUserDAO.test_delete_all" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestUserDAO.inserir_registros_para_teste" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestStrings.test_lista_de_strings_deve_ter_comp_10" />
       </list>
     </recent_temporary>
   </component>
@@ -1051,7 +1075,8 @@
       <workItem from="1482434650819" duration="25502000" />
       <workItem from="1482580155865" duration="9430000" />
       <workItem from="1482595468701" duration="2500000" />
-      <workItem from="1482599343691" duration="3852000" />
+      <workItem from="1482599343691" duration="4467000" />
+      <workItem from="1482753785761" duration="2053000" />
     </task>
     <task id="LOCAL-00001" summary="arquivo IntelliJ">
       <created>1482151929871</created>
@@ -1137,27 +1162,22 @@
       <option name="project" value="LOCAL" />
       <updated>1482595319493</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Em desenvolvimento. Acrescentado documentacao">
+      <created>1482700459548</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1482700459548</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestStrings_test_lista_de_strings_deve_ter_comp_10 - 2016.12.24 at 11h 37m 37s.xml">
-      <configuration name="Unittest TestStrings.test_lista_de_strings_deve_ter_comp_10" configurationId="tests" />
+    <history-entry file="Unittest_TestUserDAO_inserir_registros_para_teste - 2016.12.26 at 18h 32m 16s.xml">
+      <configuration name="Unittest TestUserDAO.inserir_registros_para_teste" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestStrings_test_lista_de_strings_deve_ter_comp_10 - 2016.12.24 at 11h 37m 49s.xml">
-      <configuration name="Unittest TestStrings.test_lista_de_strings_deve_ter_comp_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestStrings_test_string_aleatoria_deve_ter_comp_10 - 2016.12.24 at 11h 35m 17s.xml">
-      <configuration name="Unittest TestStrings.test_string_aleatoria_deve_ter_comp_10" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestUserDAO_test_add_deve_retornar_none - 2016.12.24 at 12h 11m 04s.xml">
+    <history-entry file="Unittest_TestUserDAO_test_add_deve_retornar_none - 2016.12.26 at 18h 34m 26s.xml">
       <configuration name="Unittest TestUserDAO.test_add_deve_retornar_none" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestUserDAO_test_delete_all - 2016.12.24 at 12h 09m 04s.xml">
-      <configuration name="Unittest TestUserDAO.test_delete_all" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestUserDAO_test_delete_all - 2016.12.24 at 12h 09m 34s.xml">
-      <configuration name="Unittest TestUserDAO.test_delete_all" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_TestUserDAO_test_delete_all - 2016.12.24 at 12h 11m 57s.xml">
       <configuration name="Unittest TestUserDAO.test_delete_all" configurationId="tests" />
@@ -1171,9 +1191,21 @@
     <history-entry file="Unittest_TestUserDAO_test_delete_all - 2016.12.24 at 12h 19m 15s.xml">
       <configuration name="Unittest TestUserDAO.test_delete_all" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittest_TestUserDAO_test_delete_all - 2016.12.26 at 18h 34m 05s.xml">
+      <configuration name="Unittest TestUserDAO.test_delete_all" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestUserDAO - 2016.12.26 at 18h 34m 39s.xml">
+      <configuration name="Unittests in TestUserDAO" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestUserDAO - 2016.12.26 at 18h 41m 02s.xml">
+      <configuration name="Unittests in TestUserDAO" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestUserDAO - 2016.12.26 at 18h 47m 13s.xml">
+      <configuration name="Unittests in TestUserDAO" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93997000" />
+    <option name="totallyTimeSpent" value="96665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="962" y="23" width="958" height="996" extended-state="0" />
@@ -1186,6 +1218,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2920354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1195,14 +1228,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29284164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1225,7 +1257,8 @@
     <MESSAGE value="Em desenvolvimento. Melhoramentos." />
     <MESSAGE value="Em desenvolvimento. Singleton." />
     <MESSAGE value="Em desenvolvimento. Acrescentado usuario_dao.list()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Em desenvolvimento. Acrescentado usuario_dao.list()" />
+    <MESSAGE value="Em desenvolvimento. Acrescentado documentacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Em desenvolvimento. Acrescentado documentacao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1264,7 +1297,7 @@
         <state relative-caret-position="285">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#137#173#0" expanded="false" />
+            <element signature="e#137#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1550,13 +1583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/test_usuario.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1564,45 +1590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/singleton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#137#173#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/usuario.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#56#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/paginas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1628,10 +1619,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/paginas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/usuario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#137#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/test_user_dao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1640,8 +1673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/usuario_dao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="569">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
